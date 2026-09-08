@@ -1,0 +1,15 @@
+a = float(input("Enter first number: "))
+op = input("Enter operator (+, -, *, /): ")
+b = float(input("Enter second number: "))
+
+match op:
+    case "+":
+        print(a + b)
+    case "-":
+        print(a - b)
+    case "*":
+        print(a * b)
+    case "/":
+        print(a / b)
+    case _:
+        print("Invalid operator")
