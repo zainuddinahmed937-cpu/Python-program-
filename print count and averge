@@ -1,0 +1,17 @@
+count = 0
+sum = 0
+
+while True:
+    n = float(input("Enter number: "))
+
+    if n == -1:
+        break
+
+    sum += n
+    count += 1
+
+if count > 0:
+    print("Count =", count)
+    print("Average =", sum / count)
+else:
+    print("No numbers entered")
